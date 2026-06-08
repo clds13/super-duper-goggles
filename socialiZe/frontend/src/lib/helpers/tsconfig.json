@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "WebWorker"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "../",
+    "paths": {
+      "*": ["*", "node_modules/*"]
+    },
+    "outDir": "./js",
+    "isolatedModules": true
+  },
+  "include": ["*.ts"]
+}

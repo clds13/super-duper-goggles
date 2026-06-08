@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "larvalabeler"
+version = "0.1.0"
+description = "Automated zebrafish larvae annotation."
+authors = ["Ashenafee Mandefro <ashenafeem@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ultralytics = "^8.2.76"
+PyYAML = "^6.0.2"
+opencv-python = "^4.10.0.84"
+numpy = "^1.23.0, <2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+mypy = "^1.11.1"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

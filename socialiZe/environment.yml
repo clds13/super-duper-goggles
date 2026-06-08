@@ -1,0 +1,16 @@
+name: socialize
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    # Regular pip packages
+    - fastapi
+    - matplotlib
+    - numpy
+    - pandas
+    - python-multipart
+    - opencv-python
+    - uvicorn
+    - websockets
+    # Wheels
+    - ./backend/wheels/spinnaker_python-4.0.0.116-cp310-cp310-win_amd64.whl
